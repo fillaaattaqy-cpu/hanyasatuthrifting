@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HanyaSatu Thrifting</title>
+
+<meta name="description" content="HanyaSatu Thrifting — curated thrift Palembang. Setiap item hanya satu. Kalau lewat, belum tentu ada lagi.">
+<meta name="keywords" content="thrifting palembang, thrift instagram, pakaian bekas berkualitas">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f6f1e7; /* cream */
+color:#3b2f2f;
+line-height:1.7;
+}
+
+/* NAV */
+nav{
+background:#fff;
+padding:16px;
+position:sticky;
+top:0;
+border-bottom:1px solid #e6dccf;
+z-index:10;
+}
+nav ul{
+display:flex;
+justify-content:center;
+gap:26px;
+list-style:none;
+}
+nav a{
+text-decoration:none;
+color:#5a4636;
+font-weight:600;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(246,241,231,.85),rgba(246,241,231,.85)),
+url("bg.JPEG") center/cover no-repeat;
+padding:120px 20px;
+text-align:center;
+}
+.hero h1{
+font-size:2.7em;
+margin-bottom:12px;
+letter-spacing:1px;
+}
+.hero p{
+max-width:620px;
+margin:0 auto 32px;
+font-size:1.05em;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+background:#6b4f3f; /* brown */
+color:#fff;
+padding:14px 24px;
+border-radius:30px;
+text-decoration:none;
+margin:6px;
+font-size:0.95em;
+transition:.3s;
+}
+.btn:hover{
+opacity:.85;
+}
+.btn.alt{
+background:#b08968;
+}
+
+/* SECTION */
+section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+}
+h2{
+text-align:center;
+margin-bottom:30px;
+letter-spacing:1px;
+}
+
+/* TRUST */
+.trust{
+background:#fff;
+padding:40px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.04);
+}
+.trust p{
+margin:10px 0;
+font-weight:500;
+color:#5a4636;
+}
+
+/* PRODUCTS */
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:28px;
+}
+.product{
+background:#fff;
+padding:18px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 10px 28px rgba(0,0,0,0.05);
+}
+.product img{
+width:100%;
+height:210px;
+object-fit:cover;
+border-radius:14px;
+}
+.badge{
+margin-top:12px;
+font-weight:bold;
+letter-spacing:1px;
+color:#b02a2a;
+}
+
+/* SOLD */
+.product.sold{
+opacity:.65;
+}
+.product.sold img{
+filter:grayscale(100%);
+}
+
+/* TESTIMONI */
+.testimoni{
+background:#fff;
+padding:28px;
+border-radius:18px;
+margin-bottom:22px;
+box-shadow:0 8px 24px rgba(0,0,0,0.04);
+}
+.testimoni p{
+font-style:italic;
+}
+.testimoni span{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+.real{
+display:inline-block;
+margin-top:6px;
+font-size:0.75em;
+background:#6b4f3f;
+color:#fff;
+padding:5px 10px;
+border-radius:20px;
+}
+
+/* REVIEW */
+.review-form{
+background:#fff;
+padding:35px;
+border-radius:18px;
+max-width:520px;
+margin:30px auto;
+box-shadow:0 8px 22px rgba(0,0,0,0.04);
+}
+.review-form input,
+.review-form textarea{
+width:100%;
+padding:14px;
+margin-bottom:14px;
+border:1px solid #ddd;
+border-radius:12px;
+font-family:inherit;
+}
+.review-form button{
+width:100%;
+padding:14px;
+background:#6b4f3f;
+color:#fff;
+border:none;
+border-radius:30px;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+background:#fff;
+text-align:center;
+padding:45px 20px;
+border-top:1px solid #e6dccf;
+font-size:0.9em;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="#home">Beranda</a></li>
+<li><a href="#about">Cerita Kami</a></li>
+<li><a href="#sold">Sudah Terjual</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<h1>Setiap Item Punya Cerita</h1>
+<p>
+Di HanyaSatu, setiap pakaian hanya ada satu.
+Kalau cocok dan kamu lewatkan, bisa jadi itu perpisahan.
+</p>
+<a href="https://instagram.com/hanyasatuthrifting" class="btn">Lihat Koleksi di Instagram</a>
+<a href="https://wa.me/6285783095189?text=Hallo%20hanyasatu.thrifting!" class="btn alt">Chat WhatsApp</a>
+</section>
+
+<!-- TRUST -->
+<section>
+<div class="trust">
+<h2>Kenapa Banyak yang Percaya?</h2>
+<p>🤎 Dipilih satu-satu, bukan asal thrift</p>
+<p>🤎 Foto asli & kondisi jujur</p>
+<p>🤎 Setiap item hanya untuk satu orang</p>
+<p>🤎 Dikirim langsung dari Palembang</p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>Cerita di Balik HanyaSatu</h2>
+<p style="text-align:center;max-width:720px;margin:auto">
+Kami percaya, pakaian bekas pun bisa punya makna baru.
+HanyaSatu hadir untuk kamu yang suka item unik, pelan-pelan, dan nggak pasaran.
+</p>
+</section>
+
+<!-- SOLD -->
+<section id="sold">
+<h2>Sudah Menemukan Pemiliknya</h2>
+<p style="text-align:center;margin-bottom:28px">
+Beberapa item yang sudah lebih dulu jatuh ke hati orang lain.
+</p>
+
+<div class="products">
+
+<div class="product sold">
+<img src="vintage.JPEG">
+<h3>Vintage Shirt</h3>
+<p class="badge">SOLD OUT</p>
+</div>
+
+<div class="product sold">
+<img src="hoodie.JPEG">
+<h3>Oversized Hoodie</h3>
+<p class="badge">SOLD OUT</p>
+</div>
+
+<div class="product sold">
+<img src="celana.JPEG">
+<h3>Vintage Pants</h3>
+<p class="badge">SOLD OUT</p>
+</div>
+
+</div>
+</section>
+
+<!-- SHOPEE -->
+<section>
+<h2>Butuh Marketplace?</h2>
+<p style="text-align:center;max-width:600px;margin:auto">
+Untuk kamu yang lebih nyaman lewat marketplace,
+beberapa koleksi kami juga tersedia di Shopee.
+</p>
+<div style="text-align:center;margin-top:28px">
+<a href="https://shopee.co.id/hanyasatuthrifting" target="_blank" class="btn alt">
+🛒 Lihat Toko Shopee
+</a>
+</div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+<h2>Cerita dari Mereka</h2>
+
+<div class="testimoni">
+<p>"Barangnya datang sesuai foto, masih cakep."</p>
+<span>— Nisa, Palembang</span>
+<span class="real">REAL BUYER</span>
+</div>
+
+<div class="testimoni">
+<p>"Fast respon, rasanya kayak beli ke temen sendiri."</p>
+<span>— Dimas</span>
+<span class="real">REAL BUYER</span>
+</div>
+
+<div class="testimoni">
+<p>"Suka karena itemnya nggak pasaran."</p>
+<span>— Rani</span>
+<span class="real">REAL BUYER</span>
+</div>
+</section>
+
+<!-- REVIEW -->
+<section>
+<h2>Tulis Ceritamu</h2>
+<p style="text-align:center;margin-bottom:22px">
+Kalau kamu pernah belanja di sini, ceritamu berarti 🤎  
+(akan kami tampilkan setelah dikurasi)
+</p>
+
+<div class="review-form">
+<input type="text" id="reviewName" placeholder="Nama kamu">
+<textarea id="reviewText" rows="4" placeholder="Gimana pengalaman belanjamu?"></textarea>
+<button onclick="submitReview()">Kirim Cerita</button>
+</div>
+</section>
+
+<!-- CTA -->
+<section id="contact">
+<h2>Siap Cari Item Favoritmu?</h2>
+<p style="text-align:center">
+Semua koleksi terbaru selalu kami update di Instagram.
+</p>
+<div style="text-align:center;margin-top:24px">
+<a href="https://instagram.com/hanyasatuthrifting" class="btn">Instagram</a>
+<a href="https://wa.me/6285783095189?text=Hallo%20hanyasatu.thrifting!" class="btn alt">WhatsApp</a>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2025 HanyaSatu Thrifting</p>
+<p>Every item tells a story.</p>
+</footer>
+
+<script>
+function submitReview(){
+const n=document.getElementById("reviewName").value;
+const t=document.getElementById("reviewText").value;
+if(n && t){
+alert("Terima kasih, "+n+" 🤍 Ceritamu akan kami tampilkan setelah dikurasi.");
+document.getElementById("reviewName").value="";
+document.getElementById("reviewText").value="";
+}else{
+alert("Isi dulu ya, biar ceritanya utuh ✨");
+}
+}
+</script>
+
+</body>
+</html>
